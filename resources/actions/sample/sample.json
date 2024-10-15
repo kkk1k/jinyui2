@@ -1,0 +1,11 @@
+{
+    "layouts": {
+        "layout": "full_layout"
+    },
+    "updated_at": "2024-10-15 01:14:30",
+    "menu": {
+        "side": "2:sidebar",
+        "header": "3:header",
+        "footer": "4:footer"
+    }
+}

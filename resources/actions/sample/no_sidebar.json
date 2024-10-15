@@ -1,0 +1,11 @@
+{
+    "layouts": {
+        "layout": "no_sidebar"
+    },
+    "updated_at": "2024-10-11 10:53:25",
+    "menu": {
+        "header": "3:header",
+        "side": "선택하세요",
+        "footer": "4:footer"
+    }
+}

@@ -139,7 +139,7 @@
         "18": {
             "code": "navlink",
             "name": "플레이스홀더",
-            "navlink": "/ui_components/placeholers",
+            "navlink": "/ui_components/placeholders",
             "ref": 0,
             "level": 1,
             "id": 2

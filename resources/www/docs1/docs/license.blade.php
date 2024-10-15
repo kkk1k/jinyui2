@@ -1,5 +1,5 @@
 <x-www-app>
-    <x-www-layout2>
+    <x-www-layout>
         license
-    </x-www-layout2>
+    </x-www-layout>
 </x-www-app>

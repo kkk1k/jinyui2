@@ -1,5 +1,5 @@
 <x-www-app>
-    <x-www-layout2>
+    <x-www-layout>
         <main class="bd-main order-1">
             <div class="bd-intro pt-2 ps-lg-2">
                 <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
@@ -23,7 +23,7 @@
                 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2578669051257137"
                     data-ad-slot="4892808451" data-ad-format="auto" data-full-width-responsive="true"></ins>
                 <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
+                    (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
 
             </div>
@@ -1001,5 +1001,5 @@
 
             </div>
         </main>
-    </x-www-layout2>
+    </x-www-layout>
 </x-www-app>

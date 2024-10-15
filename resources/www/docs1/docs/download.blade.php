@@ -1,5 +1,5 @@
 <x-www-app>
-    <x-www-layout2>
+    <x-www-layout>
         download
-    </x-www-layout2>
+    </x-www-layout>
 </x-www-app>

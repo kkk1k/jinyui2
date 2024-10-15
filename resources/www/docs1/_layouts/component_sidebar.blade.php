@@ -1,6 +1,6 @@
 @php
 // JSON 파일 경로 지정
-$jsonFile = resource_path('www/docs1/_layouts/menu_item.json');
+$jsonFile = resource_path('\menus\menu_item.json');
 
 // JSON 파일 읽어오기
 $jsonData = file_get_contents($jsonFile);

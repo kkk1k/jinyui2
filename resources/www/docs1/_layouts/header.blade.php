@@ -52,19 +52,22 @@
             </a>
 
             <!-- Wishlist button visible on screens > 768px wide (md breakpoint) -->
-            {{-- <a class="btn btn-icon btn-lg fs-lg btn-outline-secondary border-0 rounded-circle animate-pulse d-none d-md-inline-flex"
-            href="/wish">
-          <i class="ci-heart animate-target"></i>
-          <span class="visually-hidden">Wishlist</span>
-        </a> --}}
+            {{-- <a
+                class="btn btn-icon btn-lg fs-lg btn-outline-secondary border-0 rounded-circle animate-pulse d-none d-md-inline-flex"
+                href="/wish">
+                <i class="ci-heart animate-target"></i>
+                <span class="visually-hidden">Wishlist</span>
+            </a> --}}
 
             <!-- Cart button -->
-            {{-- <button type="button" class="btn btn-icon btn-lg fs-xl btn-outline-secondary position-relative border-0 rounded-circle animate-scale"
-          data-bs-toggle="offcanvas" data-bs-target="#shoppingCart"
-          aria-controls="shoppingCart" aria-label="Shopping cart">
-          <span class="position-absolute top-0 start-100 badge fs-xs text-bg-primary rounded-pill mt-1 ms-n4 z-2" style="--cz-badge-padding-y: .25em; --cz-badge-padding-x: .42em">3</span>
-          <i class="ci-shopping-bag animate-target me-1"></i>
-        </button> --}}
+            {{-- <button type="button"
+                class="btn btn-icon btn-lg fs-xl btn-outline-secondary position-relative border-0 rounded-circle animate-scale"
+                data-bs-toggle="offcanvas" data-bs-target="#shoppingCart" aria-controls="shoppingCart"
+                aria-label="Shopping cart">
+                <span class="position-absolute top-0 start-100 badge fs-xs text-bg-primary rounded-pill mt-1 ms-n4 z-2"
+                    style="--cz-badge-padding-y: .25em; --cz-badge-padding-x: .42em">3</span>
+                <i class="ci-shopping-bag animate-target me-1"></i>
+            </button> --}}
         </div>
     </div>
 

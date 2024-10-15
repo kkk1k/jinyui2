@@ -1,10 +1,10 @@
 <x-www-app>
-    <x-www-layout2>
+    <x-www-layout>
         @livewire('WidgetTitle', [
-        'filename' => 'docs/customize/customize',
-        ])
+    'filename' => 'docs/customize/customize',
+])
         @livewire('WidgetTag', [
-        'filename' => 'docs/customize/overview',
-        ])
-    </x-www-layout2>
+    'filename' => 'docs/customize/overview',
+])
+    </x-www-layout>
 </x-www-app>
