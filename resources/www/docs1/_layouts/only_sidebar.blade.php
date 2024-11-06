@@ -1,5 +1,5 @@
 <!-- Page container -->
-<div class="container pt-4">
+<div  class="d-flex">
     <div class="row pt-sm-2">
       
         <!-- Sidebar navigation -->
@@ -18,3 +18,5 @@
     </div>
 
 </div>
+
+<

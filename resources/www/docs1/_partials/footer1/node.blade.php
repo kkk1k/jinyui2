@@ -2,7 +2,11 @@
 @foreach($rows as $i => $item)
     @if(isset($item['items']))
         <li>
-            @includeIf("jiny-site::site.footer1.sub")
+            @includeIf(inSlotPartial("footer1.sub"), [
+            'ref' => "",
+            'rows' => $rows['items']
+        ])
+
         </li>
     @endif
 @endforeach
@@ -12,7 +16,8 @@
         @foreach($rows as $i => $item)
             @if(!isset($item['header']) && !isset($item['items']))
                 {{-- item에만 d-flex 적용 --}}
-                @includeIf("jiny-site::site.footer1.item")
+                @includeIf(inSlotPartial(viewFile: "footer1.item"))
+
             @endif
         @endforeach
     </div>

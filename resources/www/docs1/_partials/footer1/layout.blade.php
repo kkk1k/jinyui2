@@ -40,9 +40,11 @@
 
     <div >
         @if(isset($rows['items']) && count($rows['items'])>0)
-            @includeIf("jiny-site::site.footer1.node",[
-                'ref' => "",
-                'rows' => $rows['items']])       
+            @includeIf(inSlotPartial("footer1.node"), [
+            'ref' => "",
+            'rows' => $rows['items']
+        ])
+      
         @else
         <span>등록된 메뉴가 없습니다.</span>
         @endif

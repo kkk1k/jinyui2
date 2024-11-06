@@ -1,17 +1,31 @@
 {
-    "items": [
-        {
+    "items": {
+        "0": {
             "header": true,
             "title": "Alt+m 을 통해 사이드바를 추가하세요",
             "updated_at": "2024-10-11 06:45:35"
         },
-        {
-            "title": "header가 아닌 sidebar",
-            "updated_at": "2024-10-11 10:46:42"
-        },
-        {
+        "2": {
             "title": "사이드 바 추가",
             "href": "\/docs"
+        },
+        "3": {
+            "title": "두번째 사이드바",
+            "href": "\/docs"
+        },
+        "4": {
+            "title": "세번째 사이드바",
+            "href": "\/docs",
+            "updated_at": "2024-10-27 08:47:05"
+        },
+        "5": {
+            "title": "네번쨰 사이드 바",
+            "href": "\/docs"
+        },
+        "6": {
+            "title": "변경된 Sidebar",
+            "href": "\/docs",
+            "updated_at": "2024-11-02 11:43:56"
         }
-    ]
+    }
 }

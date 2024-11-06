@@ -34,7 +34,7 @@
 <div  id="menu-{{$code}}-{{$ref}}-{{$i}}" style="">
     @if(isset($item['items']))
         <ul style="list-style-type: none; border-left:1px solid; border-color: #ccc; padding-left: 1rem;">
-            @includeIf("jiny-site::site.header.node", [
+            @includeIf(inSlotPartial("header.node"), [
             'ref' => $ref . "-" . $i,
             'rows' => $item['items']
         ])

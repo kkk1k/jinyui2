@@ -1,12 +1,13 @@
 {{-- header와 sub는 별도의 루프에서 처리 --}}
 @foreach($rows as $i => $item)
     @if(isset($item['header']) && $item['header'])
-        @includeIf("jiny-site::site.header.title")
+
+        @includeIf(inSlotPartial("header.title"))
     @endif
 
     @if(isset($item['items']))
         <li>
-            @includeIf("jiny-site::site.header.sub")
+            @includeIf(inSlotPartial("header.sub"))
         </li>
     @endif
 @endforeach
@@ -16,7 +17,7 @@
     @foreach($rows as $i => $item)
         @if(!isset($item['header']) && !isset($item['items']))
             {{-- item에만 d-flex 적용 --}}
-            @includeIf("jiny-site::site.header.item")
+            @includeIf(inSlotPartial("header.item"))
         @endif
     @endforeach
 </div>

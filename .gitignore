@@ -19,7 +19,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-
+.theme
 
 composer.lock
 package-lock.json

@@ -10,7 +10,6 @@
         {{$slot}}
     </main>
 </div>
-<x-www-footer />
 @livewire('site-widget-menu', [
     'code' => "footer",
     'widget_path' => "footer_menu",
